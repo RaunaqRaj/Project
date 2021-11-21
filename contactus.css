@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: url(image3.jpg) ;
+    background-size: 1500px;
+    background-repeat:no-repeat ;
+}
+
+.container{
+    box-shadow: 10px 10px 15px rgb(192, 183, 183),-10px -10px 15px white;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+.logo{
+    width: 200px;
+    float: right;
+}
+.container .msg{
+    width: 90%;;
+}
+
+.container .msg .heading{
+    color: #461357;
+    font-size: 1.5em;
+    padding: 40px 0 30px 50px;
+    width: 100%;
+    border-radius: 20px;
+}
+.container .msg .heading h3{
+    font-weight: bold;
+    word-spacing: 3px;
+    border-bottom: 5px solid #64167e;
+    width: 40%;
+    padding-bottom: 5px;
+
+}
+.container .msg .user{
+    margin: 10px 10px 10px 50px;
+}
+.container .msg .user input{
+    border-style: none;
+    outline: none;
+    background:none ;
+    border-bottom: 1px solid #64167e;
+    font-size: 1em;
+    padding: 7px 0;
+}
+.container .msg .user-message{
+    margin: 10px 10px 10px 50px;
+}
+.container .msg .user-message input{
+    border-style: none;
+    outline: none;
+    background:none ;
+    border-bottom: 1px solid #64167e;
+    font-size: 1em;
+    padding: 7px 0 40px 0;
+}
+.container .msg .btn{
+    margin: 15px 10px 10px 50px;
+}
+.container .msg .btn input{
+    padding: 5px 10px;
+    color: white;
+    background:#64167e ;
+    border: 1px solid transparent;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .image{
+    width: 50%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.container .image img{
+    width: 70%;
+    height: 100%;
+    float: top;
+}
+
+a{
+    padding: 5px 10px;
+    color: white;
+    background:#64167e ;
+    border: 1px solid transparent;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px 10px 10px 50px;
+    text-decoration: none;
+    float: right;
+}
